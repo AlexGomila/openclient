@@ -8,7 +8,7 @@ wget -O usuario1.crt https://raw.githubusercontent.com/AlexGomila/openclient/ref
 wget -O usuario1.key https://raw.githubusercontent.com/AlexGomila/openclient/refs/heads/main/usuario1.key
 wget -O ta.key https://raw.githubusercontent.com/MarcosIFC31/Script-DNS/refs/heads/main/ta.key
 wget -O client.conf https://raw.githubusercontent.com/MarcosIFC31/Script-DNS/refs/heads/main/client.conf
-wget -O https://raw.githubusercontent.com/AlexGomila/openclient/refs/heads/main/client.ovpn
+wget -O client.ovpn https://raw.githubusercontent.com/AlexGomila/openclient/refs/heads/main/client.ovpn
 
 mv *.crt /etc/openvpn/
 mv *.key /etc/openvpn/
