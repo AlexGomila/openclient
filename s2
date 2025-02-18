@@ -14,6 +14,6 @@ mv client.conf /etc/openvpn/
 
 systemctl start openvpn@client
 
-sudo openvpn --config /etc/openvpn/client.ovpn --daemon
+sudo openvpn --config /etc/openvpn/client.conf --daemon
 
 ip a
