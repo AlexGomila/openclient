@@ -1,6 +1,6 @@
 #!/bin/bash
 #Script Instalación servicio OpenVPN
-sudo su
+
 sudo apt install openvpn -y
 
 wget -O ca.crt https://raw.githubusercontent.com/AlexGomila/openclient/refs/heads/main/ca.crt
