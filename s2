@@ -10,7 +10,10 @@ wget -O client.ovpn https://raw.githubusercontent.com/AlexGomila/openclient/refs
 
 mv *.key /etc/openvpn/
 mv *.crt /etc/openvpn/
-mv client.conf /etc/openvpn/
+mv client.ovpn /etc/openvpn/
 
 systemctl start openvpn@client
+
+sudo openvpn --config /etc/openvpn/client.ovpn --daemon
+
 ip a
